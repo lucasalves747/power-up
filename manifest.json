@@ -1,0 +1,29 @@
+{
+    "name": "Basic Power-Up",
+        "capabilities": ["card-buttons"],
+            "connectors": {
+        "icon": {
+            "url": "https://www.example.com/icon.png",
+                "bounds": {
+                "width": 50,
+                    "height": 50
+            }
+        }
+    },
+    "card-buttons": [
+        {
+            "text": "Say Hello",
+            "callback": "https://www.example.com/js/main.js"
+        }
+    ],
+        "scopes": ["read"],
+            "author": "Seu Nome",
+                "description": "Um Power-Up básico que exibe um pop-up de saudação.",
+                    "icon": {
+        "url": "https://www.example.com/icon.png",
+            "bounds": {
+            "width": 50,
+                "height": 50
+        }
+    }
+}
